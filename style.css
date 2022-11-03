@@ -98,7 +98,7 @@ h3 {
 }
 
 #gameover {
-    font-size: 14.5px;
+    font-size: 14.7px;
     font-weight:bolder;
     text-decoration-line:underline;
     margin: 2rem 2rem 1rem;
@@ -255,7 +255,7 @@ h3 {
 .shadow {
     position: absolute;
     bottom: -8rem;
-    left: -1rem;
+    left: 2rem;
     width: 200px;
     height: 12px;
     border-radius: 100%;
