@@ -21,22 +21,34 @@ input {
     height: 80px;
     font-size: 3rem;
     margin: 0 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 input:hover {
     background-color: rgb(196, 196, 196);
     transform: translateY(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h3 {
     font-size: 25px;
     padding: 0 8rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #display {
     color: white;
     text-align: center;
     font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #play {
     display: block;
@@ -44,14 +56,20 @@ h3 {
     background-color: #ff6a00;
     font-size: 50px;
     padding: 12px;
-    border-radius: 50px;
+    border-radius: 200px;
     transition-duration: 0.4s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #play:hover {
     background-color: rgb(122, 55, 0);
     transform: translateY(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #wrong-letters {
@@ -61,6 +79,9 @@ h3 {
     border: #000000;
     border-style:ridge;
     border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #count {
@@ -70,6 +91,9 @@ h3 {
     border-style:ridge;
     margin: 1rem 11rem 4rem;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -78,6 +102,9 @@ h3 {
     font-weight:bolder;
     text-decoration-line:underline;
     margin: 2rem 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #play-again {
@@ -89,6 +116,9 @@ h3 {
     border-radius: 50%;
     transition-duration: 0.4s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #play-again:hover {
@@ -102,7 +132,7 @@ h3 {
 
 .letters {
     font-family: 'Eater', cursive;
-    font-size: 3em;
+    font-size: 4rem;
     letter-spacing: 8px;
     color: #fa6701;
     animation: flicker 5s linear infinite;
@@ -129,6 +159,7 @@ h3 {
 
 .ghost {
     position: relative;
+    padding: 0 3rem;
     width: 160px;
     height: 200px;
 }
